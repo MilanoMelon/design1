@@ -1,0 +1,39 @@
+p{
+font-family: Cutive Mono, Times New Roman, serif;
+	font-size: 1.2em;
+	color: #000000;
+	text-align: justify;
+}
+H1{
+  font-family: Major Mono Display, Arial, sans-serif;
+	font-size: 2.5em;
+	color: #000000;
+	text-align:left;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#header {
+	background-color: #8c90b3;
+	width: 100%;
+	color: #000000;
+	position:fixed;
+	z-index:100;
+	}
+  #footer {
+  	background-color: #000000;
+  	width: 100%;
+  	color: #F8877B;
+  	}
+
+		.white {
+			background-color: #FFFFFF;
+			}
+.lavender {
+	background-color: #8c90b3
+}
+.maintext {
+	padding: 5% 40% 5% 40%
+}
+.headerspace {
+	padding-top: 10%
+}
