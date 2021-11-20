@@ -3,25 +3,31 @@
 <head>
 <title>Scrolling Manifesto</title>
 <link rel="stylesheet" href="C:\Users\hallo\Documents\GitHub\design1\styles\stylesmanifesto.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  .triangle-down {
+    position: absolute;
+    top: 0px;
+  	width: 0;
+  	height: 0;
+  	border-left: 830px solid transparent;
+  	border-right:830px solid transparent;
+  	border-top: 400px solid #555;
+    margin-left:0.8%;
+    margin-right: 10%;
+    z-index: -1;
+  }
+
+  </style>
 </head>
-.rightscroll {
-  width: 830px;
-  height: 100px;
-  border: 1px #C7DBEA;
-  float: right;
-}
-.leftscroll {
-  width: 830px;
-  height: 100px;
-  border: 1px #FFF9D8;
-  float: left;
-}
 <body>
-	<div>
 <h1>"that looks pretty"</h1>
+<div class="triangle-down"></div>
+<div class="rightscroll">This div is smaller (width is 300px and height is 100px).</div>
+<br>
+<div class="leftscroll">This div is bigger (width is also 300px and height is 100px).</div>
 
-
-
+</body>
 
 
 
