@@ -1,0 +1,20 @@
+H1{
+  font-family: Mate SC Regular, Arial, sans-serif;
+	font-size: 2.5em;
+	color: #FFC8BF;
+	text-align:center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+.rightscroll {
+  width: 830px;
+  height: 100px;
+  border: 1px #C7DBEA;
+  float: right;
+}
+.leftscroll {
+  width: 830px;
+  height: 100px;
+  border: 1px #FFF9D8;
+  float: left;
+}
