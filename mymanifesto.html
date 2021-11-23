@@ -3,36 +3,43 @@
 <head>
 <title>Scrolling Manifesto</title>
 <link rel="stylesheet" href="C:\Users\hallo\Documents\GitHub\design1\styles\stylesmanifesto.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-  .triangle-down {
-    position: absolute;
-    top: 0px;
-  	width: 0;
-  	height: 0;
-  	border-left: 830px solid transparent;
-  	border-right:830px solid transparent;
-  	border-top: 400px solid #555;
-    margin-left:0.8%;
-    margin-right: 10%;
-    z-index: -1;
-  }
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
-  </style>
 </head>
 <body>
-<h1>"that looks pretty"</h1>
-<div class="triangle-down"></div>
-<div class="rightscroll">This div is smaller (width is 300px and height is 100px).</div>
-<br>
-<div class="leftscroll">This div is bigger (width is also 300px and height is 100px).</div>
 
+<div class="container">
+<!--
+  <div class="triangle-down">
+    <h1>"that looks pretty"</h1>
+  </div>
+-->
+
+
+
+<div style= position: fixed;>
+    <div style="position:absolute; z-index:100; text-align: center; color: #FFC8BF; display:inline-block; width: 90%; padding: 5%;">
+      <div style="text-align:center; font-family:Mate SC Regular; font-size:5em;">"that looks pretty"</div>
+    </div>
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+      	 viewBox="0 0 792 248.31" style="enable-background:new 0 0 792 248.31;" xml:space="preserve">
+        <polygon fill= #FFFDBF points="396,248.31 791.8,0 0.2,0 "/>
+      </svg>
+</div>
+
+    <div class="rightscroll">
+      <p></p>
+    </div>
+
+    <div class="leftscroll">
+      <!--<p>This div is smaller (width is 300px and height is 100px).</p>-->
+    </div>
+
+
+</div>
+<footer class="footer">
+  <p> &copy; millie </p>
+</footer>
 </body>
-
-
-
-
-
-
 
 </html>
